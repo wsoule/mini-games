@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Blank template</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="index.css">
+
+    </head>
+
+    <body>
+
+        <h1>My awesome space</h1>
+        <p id = "dice-view">0</p>
+        <button id = "one-dice-roll" onClick = "rollOneDie()">Roll 1 Dice</button>
+        <button id = "two-dice-roll" onclick="rollTwoDice()">Roll 2 Dice</button>
+        <p id = "coinSide">HEADS/TAILS</p>
+        <button id = "coinFlip" onClick="coinPick()">Flip Coin</button>
+        <h2>Add Items Below</h2>
+        <ul id = "unorderedList"></ul>
+        <button id = "itemAdd" onClick="addItem()">Add Item</button>
+        <button id = "choseItem" onclick="pickRandomItem()">Pick An Item</button>
+        <h1 id='displayTime'>Display</h1>
+        <button id='addEvent' onClick='addEvent(document.getElementById("displayTime").innerText)'>Add Event</button>
+        <!-- Load external JavaScript -->
+        <script src="index.js"></script>
+        
+    </body>
+
+</html>
